@@ -1,0 +1,58 @@
+{
+  "name": "myutilia-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Your script helper!",
+  "keywords": [
+    "utils",
+    "helpers",
+    "javascript",
+    "typescript",
+    "npm",
+    "monorepo",
+    "development",
+    "file-operations",
+    "network",
+    "encryption",
+    "logging"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "build:npm": "turbo build:npm",
+    "start": "turbo start",
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint:fix",
+    "lint:test": "turbo lint:fix",
+    "format": "turbo format",
+    "clean": "turbo clean",
+    "npm:prepack": "turbo npm:prepack",
+    "npm:postpack": "turbo npm:postpack",
+    "npm:version": "changeset version",
+    "npm:publish": "changeset publish",
+    "preinstall": "husky init",
+    "pre": "turbo pre",
+    "pre:husky": "git add . && lint-staged",
+    "prepare": "husky",
+    "test": "echo \"Error: no test specified\""
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.7",
+    "@types/node": "^22.2.0",
+    "commitsmile": "^0.6.1",
+    "globals": "^15.9.0",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.8",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "lint-staged": {
+    "*": ""
+  },
+  "packageManager": "pnpm@9.4.0"
+}
