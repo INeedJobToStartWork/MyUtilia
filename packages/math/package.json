@@ -1,0 +1,54 @@
+{
+	"name": "@myutilia/math",
+	"version": "0.1.0",
+	"description": "Mathematical utility module",
+	"keywords": [
+		"utils",
+		"myutilia",
+		"math",
+		"mathematic"
+	],
+	"homepage": "https://github.com/INeedJobToStartWork/INeedJobToStartWork",
+	"bugs": "https://github.com/INeedJobToStartWork/INeedJobToStartWork/issues/new/choose",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/INeedJobToStartWork/INeedJobToStartWork",
+		"directory": "packages/myutilia-m-math"
+	},
+	"license": "MIT",
+	"author": "ineedjobtostartwork",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"build": "pnpm tsup-node --config ./config/tsuprc/tsup.prod.ts ",
+		"build:npm": "pnpm npm:prepack && pnpm tsup-node --config ./config/tsuprc/tsup.prod.ts && pnpm npm:postpack",
+		"dev": "pnpm tsup-node --config ./config/tsuprc/tsup.dev.ts",
+		"format": "pnpm prettier . --write && pnpm prettier . --check",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"npm:postpack": "clean-package restore",
+		"npm:prepack": "clean-package",
+		"prepublishOnly": "pnpm build:npm"
+	},
+	"lint-staged": {
+		"*": [
+			"pnpm format --",
+			"pnpm lint:fix --",
+			"pnpm lint --"
+		]
+	},
+	"dependencies": {
+		"oh-my-error": "1.1.1"
+	},
+	"devDependencies": {
+		"@ineedj/eslintrc": "~1.1.7",
+		"@ineedj/prettierrc": "^2.0.0",
+		"@ineedj/tsconfig": "^1.0.0",
+		"clean-package": "^2.2.0",
+		"esbuild-plugin-copy": "^2.1.1",
+		"eslint": "~8.57.0",
+		"prettier": "^3.3.3",
+		"tsup": "^8.1.0",
+		"typescript": "^5.5.4"
+	}
+}

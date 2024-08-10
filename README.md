@@ -12,18 +12,18 @@ About:
 - ⚠️ Error Handler
 - 📝 Debug Logging
 
-| Category              | Functionality                    | Package name                                                                   | Progress Status |
-| --------------------- | -------------------------------- | ------------------------------------------------------------------------------ | --------------- |
-| 📦 All                | Have all packages below          | [myutilia](https://www.npmjs.com/package/myutilia)                             | 😴              |
-| 📂 File Operations    | File Operations and Paths        | [myutilia-m-fs](https://www.npmjs.com/package/myutilia-m-fs)                   | 😴              |
-| 📆 Dates              | Dates utils                      | [myutilia-m-dates](https://www.npmjs.com/package/myutilia-m-dates)             | 😴              |
-| 🧮 Math               | Math Functions without JS errors | [myutilia-m-math](https://www.npmjs.com/package/myutilia-m-math)               | 😴              |
-| 🌐 Network operations | Network Operations               | [myutilia-m-network](https://www.npmjs.com/package/myutilia-m-network)         | 😴              |
-| 🔒 File encryption    | Encrypt Operations               | [myutilia-m-encryptions](https://www.npmjs.com/package/myutilia-m-encryptions) | 😴              |
-| 🪟 WinApi             | Windows Api Functions            | [myutilia-m-winapi](https://www.npmjs.com/package/myutilia-m-winapi)           | 😴              |
-| 📦 NPM                | NPM Functions                    | [myutilia-m-npm](https://www.npmjs.com/package/myutilia-m-npm)                 | 😴              |
-| 🤖 GIT                | GIT Functions                    | [myutilia-m-git](https://www.npmjs.com/package/myutilia-m-git)                 | 😴              |
-| ⌨️ ENV                | ENV Utils                        | [myutilia-m-env](https://www.npmjs.com/package/myutilia-m-env)                 | 😴              |
-| 🔗 URL helpers        | Url utils                        | [myutilia-m-url](https://www.npmjs.com/package/myutilia-m-url)                 | 😴              |
-| 🖨️ Hardware           | Hardware functions               | [myutilia-m-hardware](https://www.npmjs.com/package/myutilia-m-hardware)       | 😴              |
-| ✏️ Logger             | Logger                           | [myutilia-m-logger](https://www.npmjs.com/package/myutilia-m-logger)           | 😴              |
+| Category              | Functionality                    | Package name                                                                 | Progress Status |
+| --------------------- | -------------------------------- | ---------------------------------------------------------------------------- | --------------- |
+| 📦 All                | Have all packages below          | [myutilia](https://www.npmjs.com/package/myutilia)                           | 😴              |
+| 📂 File Operations    | File Operations and Paths        | [@myutilia/fs](https://www.npmjs.com/package/@myutilia/fs)                   | 😴              |
+| 📆 Dates              | Dates utils                      | [@myutilia/dates](https://www.npmjs.com/package/@myutilia/dates)             | 😴              |
+| 🧮 Math               | Math Functions without JS errors | [@myutilia/math](https://www.npmjs.com/package/@myutilia/math)               | 😴              |
+| 🌐 Network operations | Network Operations               | [@myutilia/network](https://www.npmjs.com/package/@myutilia/network)         | 😴              |
+| 🔒 File encryption    | Encrypt Operations               | [@myutilia/encryptions](https://www.npmjs.com/package/@myutilia/encryptions) | 😴              |
+| 🪟 WinApi             | Windows Api Functions            | [@myutilia/winapi](https://www.npmjs.com/package/@myutilia/winapi)           | 😴              |
+| 📦 NPM                | NPM Functions                    | [@myutilia/npm](https://www.npmjs.com/package/@myutilia/npm)                 | 😴              |
+| 🤖 GIT                | GIT Functions                    | [@myutilia/git](https://www.npmjs.com/package/@myutilia/git)                 | 😴              |
+| ⌨️ ENV                | ENV Utils                        | [@myutilia/env](https://www.npmjs.com/package/@myutilia/env)                 | 😴              |
+| 🔗 URL helpers        | Url utils                        | [@myutilia/url](https://www.npmjs.com/package/@myutilia/url)                 | 😴              |
+| 🖨️ Hardware           | Hardware functions               | [@myutilia/hardware](https://www.npmjs.com/package/@myutilia/hardware)       | 😴              |
+| ✏️ Logger             | Logger                           | [@myutilia/logger](https://www.npmjs.com/package/@myutilia/logger)           | 😴              |
