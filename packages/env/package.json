@@ -1,6 +1,7 @@
 {
 	"name": "@myutilia/env",
 	"version": "0.1.0",
+	"private": "true",
 	"description": "Environment utility module",
 	"keywords": [
 		"utils",

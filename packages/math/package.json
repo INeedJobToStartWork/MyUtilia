@@ -1,6 +1,7 @@
 {
 	"name": "@myutilia/math",
 	"version": "0.1.0",
+	"private": "true",
 	"description": "Mathematical utility module",
 	"keywords": [
 		"utils",
