@@ -1,0 +1,15 @@
+{
+	"$schema": "http://json.schemastore.org/tsconfig",
+
+	"compilerOptions": {
+		"outDir": "./dist",
+		"baseUrl": "./src",
+		"paths": {
+			"@/*": ["*"]
+		},
+		"skipLibCheck": true,
+		"lib": ["esnext", "dom"]
+	},
+	"include": ["src"],
+	"extends": "@ineedj/tsconfig/base.json"
+}

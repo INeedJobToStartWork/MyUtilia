@@ -1,19 +1,19 @@
 {
-	"name": "@myutilia/math",
+	"name": "@myutilia/env",
 	"version": "0.1.0",
-	"description": "Mathematical utility module",
+	"description": "Environment utility module",
 	"keywords": [
 		"utils",
 		"myutilia",
-		"math",
-		"mathematic"
+		"env",
+		"environment"
 	],
 	"homepage": "https://github.com/INeedJobToStartWork/MyUtilia",
 	"bugs": "https://github.com/INeedJobToStartWork/MyUtilia/issues/new/choose",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/INeedJobToStartWork/MyUtilia",
-		"directory": "packages/math"
+		"directory": "packages/env"
 	},
 	"license": "MIT",
 	"author": "ineedjobtostartwork",
