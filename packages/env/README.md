@@ -8,5 +8,5 @@
 
 | Functions / Variables Name | Description                                       | Status |
 | -------------------------- | ------------------------------------------------- | ------ |
-| os                         | Returns on which os is working                    | 😴     |
+| os                         | Returns on which os is working                    | ✅     |
 | isCI                       | Checks if the code is running in a CI environment | 😴     |

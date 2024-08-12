@@ -1,7 +1,6 @@
 {
 	"name": "@myutilia/env",
 	"version": "0.1.0",
-	"private": "true",
 	"description": "Environment utility module",
 	"keywords": [
 		"utils",
@@ -42,9 +41,10 @@
 		"oh-my-error": "1.1.1"
 	},
 	"devDependencies": {
-		"@ineedj/eslintrc": "~1.1.7",
+		"@ineedj/eslintrc": "~1.2.0",
 		"@ineedj/prettierrc": "^2.0.0",
 		"@ineedj/tsconfig": "^1.0.0",
+		"@types/node": "^22.2.0",
 		"clean-package": "^2.2.0",
 		"esbuild-plugin-copy": "^2.1.1",
 		"eslint": "~8.57.0",

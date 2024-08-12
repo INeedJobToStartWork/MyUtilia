@@ -9,7 +9,8 @@ export default ineedj({
 		perfectionistSorters: false
 	},
 	modifiers: {
-		only: "warn"
+		only: "warn",
+		commands: true
 	},
 	syntax: {
 		mdx: true,
@@ -30,6 +31,10 @@ export default ineedj({
 			basicIgnores: true
 		}
 	}
-});
+}).removeRules(
+	"@EslintTSDocs/syntax",
+	"@EslintSecurity/detect-object-injection",
+	"@typescript-eslint/no-throw-literal"
+);
 
 // export default [];
