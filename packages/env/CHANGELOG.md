@@ -1,5 +1,11 @@
 # @myutilia/env
 
+## 0.1.2
+
+### Patch Changes
+
+- add Readme.MD
+
 ## 0.1.1
 
 ### Patch Changes
