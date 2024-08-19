@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/9031947a-97ac-4d40-9a34-d897544e6785)
+![image](https://github.com/user-attachments/assets/8d52629f-7842-4492-9e08-46d5a7484398)
+
 
 <h1 align="center">🌐 Network operations</h1>
 <p align="center">Module for <a href="https://github.com/INeedJobToStartWork/MyUtilia">My Utils</a></p>
