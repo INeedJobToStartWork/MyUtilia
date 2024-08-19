@@ -1,4 +1,3 @@
-import type { TMyErrorList } from "oh-my-error";
 import { createConnection } from "node:net";
 
 //----------------------
@@ -28,7 +27,6 @@ import { createConnection } from "node:net";
  *
  * @example console.log(isPortFree("localhost", 8080))
  * @returns {TSystem|string} current system type.
- * @throws MyError
  */
 
 export const isPortFree = (host: string, port: number, timeout = 1000) => {
