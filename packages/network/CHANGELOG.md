@@ -1,5 +1,11 @@
 # @myutilia/env
 
+## 0.1.1
+
+### Patch Changes
+
+- change img in readme
+
 ## 0.1.0
 
 ### Minor Changes
